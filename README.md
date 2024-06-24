@@ -40,6 +40,37 @@
 
 ##### Requirements:
 * simulation requires following Python packages: vPython, NumPy, SciPy
+  
+##### Environment setup process:
+*Create a Conda Environment: " conda create --name simulation_env python=3.10 "
+* Activate the Environment: " conda activate simulation_env "
+* Install Required Packages: " conda install -c conda-forge vpython numpy scipy " 
+
+##### Directory Structures
+Ensure your directory structure is like this:
+simulation/
+├── textures/
+│   └── (all texture files)
+├── planets.py
+├── moons.py
+├── graphics.py
+├── key_control.py
+├── spaceship.py
+├── uvf.py
+├── info.py
+├── update.py
+├── parameters.py
+└── main_script.py  # Your main script
+
+##### Running Your Script
+Ensure all the necessary modules (planets.py, moons.py, graphics.py, etc.) are in the same directory as your main script (main_script.py). Your texture files should be inside the textures directory.
+
+Run the script:
+
+Make sure you are in the directory where main_script.py is located and your Conda environment is activated. Then, run the script: " python main_script.py "
+
+
+
 
 
 ##### Future improvements: 
