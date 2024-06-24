@@ -50,17 +50,22 @@
 Ensure your directory structure is like this:
 simulation/
 ├── textures/
-│   └── (all texture files)
-├── planets.py
-├── moons.py
+│   └── (all texture files including neptune.tga)
+├── README.md
 ├── graphics.py
-├── key_control.py
-├── spaceship.py
-├── uvf.py
+├── inceptor.py
 ├── info.py
-├── update.py
+├── key_control.py
+├── main.py
+├── moons.py
 ├── parameters.py
-└── main_script.py  # Your main script
+├── planets.py
+├── raphson.py
+├── screenshots.jpg
+├── spaceship.py
+├── update.py
+└── uvf.py
+
 
 ##### Running Your Script
 Ensure all the necessary modules (planets.py, moons.py, graphics.py, etc.) are in the same directory as your main script (main_script.py). Your texture files should be inside the textures directory.
